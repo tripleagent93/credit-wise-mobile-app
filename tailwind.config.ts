@@ -13,7 +13,13 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        opensans: ['Open Sans', 'sans-serif'],
+      },
       colors: {
+        'brand-primary': '#1851A0',
+        'brand-accent': '#2ECC71',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
