@@ -118,3 +118,38 @@
     white-space: pre;
   }
 }
+
+/* ── Gradient range slider (used in Modal 3 / Goal Slider showcase) ── */
+.gradient-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #FF4B4B, #FF8C42, #FFD23F, #2ECC71);
+  outline: none;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+.gradient-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: white;
+  border: 2.5px solid #1851A0;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.gradient-slider::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: white;
+  border: 2.5px solid #1851A0;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
