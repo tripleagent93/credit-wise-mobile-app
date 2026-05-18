@@ -4,6 +4,7 @@ import CreditScoreIllustration from "../components/assets/images/CreditScoreIllu
 import RealtimeAlertsIllustration from "../components/assets/images/RealtimeAlertsIllustration.svg";
 import PhoneMockup from "../components/assets/images/Phone mockup @1.5x.png";
 import PhoneMockups from "../components/assets/images/Phone mockups @2x.png";
+import { motion } from "motion/react";
 
 const Logo = ({ id = "logo" }: { id?: string }) => (
   <div className="flex items-center gap-1">
