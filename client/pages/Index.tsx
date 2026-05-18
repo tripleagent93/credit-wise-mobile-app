@@ -1,5 +1,9 @@
 import { useState } from "react";
 import GooglePlay from "../components/assets/images/Google Play.png";
+import CreditScoreIllustration from "../components/assets/images/CreditScoreIllustration.svg";
+import RealtimeAlertsIllustration from "../components/assets/images/RealtimeAlertsIllustration.svg";
+import PhoneMockup from "../components/assets/images/Phone mockup @1.5x.png";
+import PhoneMockups from "../components/assets/images/Phone mockups @2x.png";
 
 const Logo = ({ id = "logo" }: { id?: string }) => (
   <div className="flex items-center gap-1">
@@ -319,48 +323,11 @@ export default function Index() {
               className="relative flex items-end justify-center w-full max-w-[520px] mx-auto"
               style={{ height: "380px" }}
             >
-              {/* Left phone */}
-              <div
-                className="absolute left-0 bottom-0 w-[200px] sm:w-[220px]"
-                style={{ zIndex: 1 }}
-              >
-                <div className="relative">
-                  <div
-                    className="absolute inset-1 rounded-[48px] bg-brand-accent"
-                    style={{
-                      boxShadow: "20px 20px 40px -4px rgba(10,13,18,0.20)",
-                    }}
-                  />
-                  <div className="relative mx-2 my-2 rounded-[40px] overflow-hidden bg-[#1a1a1a] border-[7px] border-[#2a2a2a]">
-                    <img
-                      src="https://api.builder.io/api/v1/image/assets/TEMP/54935f06cb88d7223d550b3fe0e9082bf6dc530b?width=508"
-                      alt="CreditWise app screen"
-                      className="w-full"
-                    />
-                  </div>
-                </div>
-              </div>
-              {/* Right phone (front) */}
-              <div
-                className="absolute right-0 top-0 w-[200px] sm:w-[220px]"
-                style={{ zIndex: 2 }}
-              >
-                <div className="relative">
-                  <div
-                    className="absolute inset-1 rounded-[48px] bg-brand-accent"
-                    style={{
-                      boxShadow: "20px 20px 40px -4px rgba(10,13,18,0.20)",
-                    }}
-                  />
-                  <div className="relative mx-2 my-2 rounded-[40px] overflow-hidden bg-[#1a1a1a] border-[7px] border-[#2a2a2a]">
-                    <img
-                      src="https://api.builder.io/api/v1/image/assets/TEMP/dfa16ee4eac5f769911495c6f25065611ca93a7d?width=508"
-                      alt="CreditWise app screen"
-                      className="w-full"
-                    />
-                  </div>
-                </div>
-              </div>
+              <img
+                src={PhoneMockups}
+                alt="CreditWise app screen"
+                className="w-full"
+              />
             </div>
           </div>
         </div>
@@ -373,14 +340,11 @@ export default function Index() {
       >
         <div className="max-w-[1216px] mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
           {/* Left image card */}
-          <div
-            className="w-full lg:w-[592px] flex-shrink-0 rounded-[20px] bg-brand-primary flex items-end justify-center pt-10 px-6 lg:px-10 overflow-hidden min-h-[320px] lg:min-h-[480px]"
-            style={{ backgroundColor: "#1851A0" }}
-          >
+          <div className="w-full lg:w-[592px] flex-shrink-0 rounded-[20px] bg-brand-primary flex items-end justify-center pt-10 px-6 lg:px-10 overflow-hidden min-h-[320px] lg:min-h-[480px]">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/13cbbca15d40e7937b9b258207d1dea5e28b58b9?width=800"
+              src={PhoneMockup}
               alt="CreditWise app on phone"
-              className="w-full max-w-[380px] lg:max-w-[400px] object-contain"
+              className="w-full max-w-[380px] lg:max-w-[500px] object-contain"
             />
           </div>
 
@@ -461,7 +425,7 @@ export default function Index() {
       >
         <div className="max-w-[1216px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-8">
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/6c70a6d7ab04cb01d33e2debf5c6bbe0d35697f2?width=1054"
+            src={CreditScoreIllustration}
             alt="Unlock Your Credit Score illustration"
             className="w-full lg:w-[48%] max-w-[527px] object-contain"
           />
@@ -483,7 +447,7 @@ export default function Index() {
       {/* Features B - Real-Time Alerts */}
       <section className="w-full bg-white pb-16 lg:pb-20 pt-8 lg:pt-10 px-5 lg:px-20">
         <div className="max-w-[1216px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10 lg:gap-8">
-          <div className="flex flex-col gap-5 lg:w-[45%] max-w-[519px] lg:order-1">
+          <div className="flex flex-col gap-5 lg:w-[45%] max-w-[519px]">
             <h2 className="font-inter font-semibold text-[#212121] text-3xl lg:text-[36px] leading-[38px] capitalize">
               Stay Informed with Real-Time Alerts
             </h2>
@@ -497,58 +461,11 @@ export default function Index() {
             </button>
           </div>
           {/* Illustration */}
-          <div className="w-full lg:w-[48%] max-w-[527px] lg:order-2 flex items-center justify-center">
-            <div className="relative w-full max-w-[480px] aspect-square flex items-center justify-center">
-              <div className="absolute inset-0 rounded-full bg-[#EEF3FC] opacity-60" />
-              <div className="relative flex flex-col gap-3 w-full max-w-[340px]">
-                {[
-                  {
-                    icon: "🔔",
-                    title: "New Credit Inquiry Detected",
-                    sub: "Experian · Just now",
-                    color: "#EEF3FC",
-                  },
-                  {
-                    icon: "✅",
-                    title: "Credit Score Updated",
-                    sub: "Score: 720 +12 pts",
-                    color: "#E8F8F0",
-                  },
-                  {
-                    icon: "⚠️",
-                    title: "New Account Opened",
-                    sub: "Chase Bank · 2 hours ago",
-                    color: "#FFF8E7",
-                  },
-                  {
-                    icon: "📊",
-                    title: "Payment Reminder",
-                    sub: "Due in 3 days",
-                    color: "#EEF3FC",
-                  },
-                ].map((card, i) => (
-                  <div
-                    key={i}
-                    className="flex items-center gap-3 px-4 py-3 rounded-xl shadow-md"
-                    style={{
-                      backgroundColor: card.color,
-                      transform: `translateX(${i % 2 === 0 ? "0" : "20px"})`,
-                    }}
-                  >
-                    <span className="text-xl">{card.icon}</span>
-                    <div>
-                      <div className="font-inter font-medium text-sm text-[#212121]">
-                        {card.title}
-                      </div>
-                      <div className="font-inter text-xs text-[#757575]">
-                        {card.sub}
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
+          <img
+            src={RealtimeAlertsIllustration}
+            alt="Realtime Alerts illustration"
+            className="w-full lg:w-[48%] max-w-[527px] object-contain"
+          />
         </div>
       </section>
 
