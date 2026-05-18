@@ -130,40 +130,6 @@ const ReviewCard = ({ name, text, avatar, stars = 5 }: ReviewCardProps) => (
   </div>
 );
 
-const PhoneMockupSimple = ({
-  screenSrc,
-  shadowColor = "#2ECC71",
-  zIndex = 0,
-  className = "",
-}: {
-  screenSrc: string;
-  shadowColor?: string;
-  zIndex?: number;
-  className?: string;
-}) => (
-  <div
-    className={`relative w-[220px] flex-shrink-0 ${className}`}
-    style={{ zIndex }}
-  >
-    <div
-      className="absolute inset-0 rounded-[52px]"
-      style={{
-        background: shadowColor,
-        boxShadow:
-          "24px 24px 48px -4px rgba(10,13,18,0.20), 12px 12px 24px -2px rgba(10,13,18,0.08)",
-      }}
-    />
-    <div className="relative rounded-[52px] overflow-hidden bg-black border-[8px] border-[#333] mx-2 my-2">
-      <div className="relative bg-white overflow-hidden rounded-[44px]">
-        <div className="h-5 bg-white flex items-center justify-center">
-          <div className="w-16 h-1 bg-[#333] rounded-full" />
-        </div>
-        <img src={screenSrc} alt="App screen" className="w-full object-cover" />
-      </div>
-    </div>
-  </div>
-);
-
 export default function Index() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
