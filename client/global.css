@@ -125,7 +125,7 @@
   appearance: none;
   height: 10px;
   border-radius: 5px;
-  background: linear-gradient(to right, #FF4B4B, #FF8C42, #FFD23F, #2ECC71);
+  background: linear-gradient(to right, #ff4b4b, #ff8c42, #ffd23f, #2ecc71);
   outline: none;
   cursor: pointer;
   display: block;
@@ -139,7 +139,7 @@
   height: 22px;
   border-radius: 50%;
   background: white;
-  border: 2.5px solid #1851A0;
+  border: 2.5px solid #1851a0;
   cursor: pointer;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
@@ -149,7 +149,11 @@
   height: 22px;
   border-radius: 50%;
   background: white;
-  border: 2.5px solid #1851A0;
+  border: 2.5px solid #1851a0;
   cursor: pointer;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.min-width-sm {
+  min-width: 375px;
 }

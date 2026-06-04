@@ -1,12 +1,13 @@
 import type { Preview } from "@storybook/react";
 import "../client/global.css";
+import { INITIAL_VIEWPORTS } from "storybook/viewport";
 
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
 
     viewport: {
-      defaultViewport: "iphone14",
+      options: INITIAL_VIEWPORTS,
     },
 
     backgrounds: {
@@ -37,6 +38,25 @@ const preview: Preview = {
       test: "todo",
     },
   },
+  decorators: [
+    (Story) => (
+      <div className="p-4 flex justify-center">
+        <div className="min-width-sm">
+          <style>
+            {`
+            .docs-story {
+              background-color: #F8F9FA !important;
+            }
+          `}
+          </style>
+          <Story />
+        </div>
+      </div>
+    ),
+  ],
+  // initialGlobals: {
+  //   viewport: { value: "iphone14pro", isRotated: false },
+  // },
 };
 
 export default preview;

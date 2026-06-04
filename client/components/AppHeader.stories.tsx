@@ -19,11 +19,3 @@ export const WithNotification: Story = {
     </div>
   ),
 };
-
-export const InCard: Story = {
-  render: () => (
-    <div className="bg-white p-4 rounded-lg max-w-md">
-      <AppHeader />
-    </div>
-  ),
-};

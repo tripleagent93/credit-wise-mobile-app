@@ -5,15 +5,6 @@ const meta = {
   title: "Components/BottomSheet",
   component: BottomSheet,
   tags: ["autodocs"],
-  decorators: [
-    (Story) => (
-      <div className="bg-gray-50 p-6 flex justify-center">
-        <div className="w-full max-w-sm">
-          <Story />
-        </div>
-      </div>
-    ),
-  ],
 } satisfies Meta<typeof BottomSheet>;
 
 export default meta;
@@ -44,16 +35,9 @@ export const InContext: Story = {
   parameters: {
     docs: {
       description: {
-        story: "Bottom sheet displayed over a dark overlay, showing how it appears in a full-screen modal context.",
+        story:
+          "Bottom sheet displayed over a dark overlay, showing how it appears in a full-screen modal context.",
       },
     },
   },
-};
-
-export const Stacked: Story = {
-  render: () => (
-    <div className="space-y-3 max-w-sm">
-      <BottomSheet />
-    </div>
-  ),
 };

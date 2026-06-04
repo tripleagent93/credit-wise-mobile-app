@@ -5,15 +5,6 @@ const meta = {
   title: "Components/Button",
   component: ButtonShowcase,
   tags: ["autodocs"],
-  decorators: [
-    (Story) => (
-      <div className="bg-gray-50 p-6">
-        <div className="max-w-xs">
-          <Story />
-        </div>
-      </div>
-    ),
-  ],
 } satisfies Meta<typeof ButtonShowcase>;
 
 export default meta;

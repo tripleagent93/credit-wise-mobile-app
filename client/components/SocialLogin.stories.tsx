@@ -5,15 +5,6 @@ const meta = {
   title: "Components/SocialLogin",
   component: SocialLoginShowcase,
   tags: ["autodocs"],
-  decorators: [
-    (Story) => (
-      <div className="bg-gray-50 p-6">
-        <div className="max-w-sm">
-          <Story />
-        </div>
-      </div>
-    ),
-  ],
 } satisfies Meta<typeof SocialLoginShowcase>;
 
 export default meta;
@@ -46,7 +37,10 @@ export const SignInVariant: Story = {
         </button>
         <button className="w-full flex items-center justify-center gap-2 bg-white border border-gray-300 text-gray-800 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-50">
           <svg width="17" height="17" viewBox="0 0 24 24">
-            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+              fill="#4285F4"
+            />
           </svg>
           Sign in with Google
         </button>
@@ -67,7 +61,10 @@ export const IconOnlyVariant: Story = {
         </button>
         <button className="w-10 h-10 rounded-full bg-white border border-gray-300 flex items-center justify-center hover:bg-gray-50">
           <svg width="17" height="17" viewBox="0 0 24 24">
-            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />
+            <path
+              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+              fill="#4285F4"
+            />
           </svg>
         </button>
       </div>

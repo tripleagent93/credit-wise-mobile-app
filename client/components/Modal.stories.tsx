@@ -5,15 +5,6 @@ const meta = {
   title: "Components/Modal",
   component: ModalShowcase,
   tags: ["autodocs"],
-  decorators: [
-    (Story) => (
-      <div className="bg-gray-50 p-6 min-h-screen">
-        <div className="max-w-sm mx-auto space-y-6">
-          <Story />
-        </div>
-      </div>
-    ),
-  ],
 } satisfies Meta<typeof ModalShowcase>;
 
 export default meta;
@@ -39,7 +30,14 @@ export const StartGoal: Story = {
       <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100">
         <span className="font-semibold text-[#212121] text-sm">Start goal</span>
         <button className="text-gray-400 hover:text-gray-600">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+          >
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
@@ -47,7 +45,8 @@ export const StartGoal: Story = {
       </div>
       <div className="px-4 py-3">
         <p className="text-sm text-[#757575] leading-relaxed">
-          Reach a 740+ score to secure the lowest mortgage rates and save thousands in interest.
+          Reach a 740+ score to secure the lowest mortgage rates and save
+          thousands in interest.
         </p>
       </div>
       <div className="px-4 pb-4">
@@ -63,9 +62,18 @@ export const DeleteConfirm: Story = {
   render: () => (
     <div className="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden max-w-sm">
       <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100">
-        <span className="font-semibold text-[#212121] text-sm">Delete goal</span>
+        <span className="font-semibold text-[#212121] text-sm">
+          Delete goal
+        </span>
         <button className="text-gray-400 hover:text-gray-600">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+          <svg
+            width="15"
+            height="15"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+          >
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
@@ -73,7 +81,8 @@ export const DeleteConfirm: Story = {
       </div>
       <div className="px-4 py-3">
         <p className="text-sm text-gray-500 leading-relaxed">
-          Are you sure you want to delete this goal? This action cannot be undone.
+          Are you sure you want to delete this goal? This action cannot be
+          undone.
         </p>
       </div>
       <div className="px-4 pb-4">

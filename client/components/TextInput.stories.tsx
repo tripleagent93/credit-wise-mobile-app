@@ -5,15 +5,6 @@ const meta = {
   title: "Components/TextInput",
   component: TextInputShowcase,
   tags: ["autodocs"],
-  decorators: [
-    (Story) => (
-      <div className="bg-gray-50 p-6">
-        <div className="max-w-sm">
-          <Story />
-        </div>
-      </div>
-    ),
-  ],
 } satisfies Meta<typeof TextInputShowcase>;
 
 export default meta;
@@ -36,7 +27,9 @@ export const Showcase: Story = {
 export const EmailInput: Story = {
   render: () => (
     <div className="max-w-sm">
-      <label className="text-xs font-medium text-gray-500 mb-1 block">Email</label>
+      <label className="text-xs font-medium text-gray-500 mb-1 block">
+        Email
+      </label>
       <input
         type="email"
         placeholder="you@example.com"
@@ -49,7 +42,9 @@ export const EmailInput: Story = {
 export const PasswordInput: Story = {
   render: () => (
     <div className="max-w-sm">
-      <label className="text-xs font-medium text-gray-500 mb-1 block">Password</label>
+      <label className="text-xs font-medium text-gray-500 mb-1 block">
+        Password
+      </label>
       <input
         type="password"
         placeholder="••••••••"
@@ -62,7 +57,9 @@ export const PasswordInput: Story = {
 export const WithFocus: Story = {
   render: () => (
     <div className="max-w-sm">
-      <label className="text-xs font-medium text-gray-500 mb-1 block">Email</label>
+      <label className="text-xs font-medium text-gray-500 mb-1 block">
+        Email
+      </label>
       <input
         type="email"
         placeholder="you@example.com"
@@ -76,7 +73,9 @@ export const WithFocus: Story = {
 export const Filled: Story = {
   render: () => (
     <div className="max-w-sm">
-      <label className="text-xs font-medium text-gray-500 mb-1 block">Email</label>
+      <label className="text-xs font-medium text-gray-500 mb-1 block">
+        Email
+      </label>
       <input
         type="email"
         placeholder="you@example.com"

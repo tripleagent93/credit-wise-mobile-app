@@ -5,15 +5,6 @@ const meta = {
   title: "Components/Accordion",
   component: AccordionShowcase,
   tags: ["autodocs"],
-  decorators: [
-    (Story) => (
-      <div className="bg-gray-50 p-6">
-        <div className="max-w-sm bg-white rounded-lg p-4">
-          <Story />
-        </div>
-      </div>
-    ),
-  ],
 } satisfies Meta<typeof AccordionShowcase>;
 
 export default meta;
@@ -38,7 +29,9 @@ export const Expanded: Story = {
     <div className="divide-y divide-gray-100">
       <div className="py-3 border-b border-gray-100">
         <button className="w-full flex items-center justify-between text-left gap-2">
-          <span className="text-sm font-medium text-[#212121]">Spend or pay on your accounts</span>
+          <span className="text-sm font-medium text-[#212121]">
+            Spend or pay on your accounts
+          </span>
           <span className="text-gray-500">
             <svg
               width="16"
@@ -55,7 +48,8 @@ export const Expanded: Story = {
           </span>
         </button>
         <p className="mt-2 text-sm text-[#757575] leading-relaxed">
-          Paying your accounts regularly improves your credit utilization ratio and boosts your score over time.
+          Paying your accounts regularly improves your credit utilization ratio
+          and boosts your score over time.
         </p>
       </div>
     </div>
@@ -67,7 +61,9 @@ export const Collapsed: Story = {
     <div className="divide-y divide-gray-100">
       <div className="py-3 border-b border-gray-100">
         <button className="w-full flex items-center justify-between text-left gap-2">
-          <span className="text-sm font-medium text-[#212121]">Spend or pay on your accounts</span>
+          <span className="text-sm font-medium text-[#212121]">
+            Spend or pay on your accounts
+          </span>
           <span className="text-gray-500">
             <svg
               width="16"
