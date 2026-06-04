@@ -88,7 +88,7 @@ const tabConfig: { id: TabId; label: string; icon: React.ReactNode }[] = [
 export function TabBar() {
   const [active, setActive] = useState<TabId>("Home");
   return (
-    <div className="flex items-center justify-around bg-white border border-gray-200 shadow-sm py-2">
+    <div className="flex items-center justify-around bg-white border border-gray-200 shadow-sm py-2 max-w-sm">
       {tabConfig.map((tab) => (
         <button
           key={tab.id}

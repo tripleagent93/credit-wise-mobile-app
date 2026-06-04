@@ -2,7 +2,7 @@ import CreditWiseLogo from "../components/assets/images/CreditWise Logo.svg";
 
 export function AppHeader() {
   return (
-    <div className="grid grid-cols-3 items-center bg-white border border-gray-200 px-4 py-3 shadow-sm">
+    <div className="grid grid-cols-3 items-center bg-white border border-gray-200 px-4 py-3 shadow-sm max-w-sm">
       <div className="flex"></div>
       <div className="flex justify-center">
         <img src={CreditWiseLogo} alt="CreditWise Logo" className="w-full" />
