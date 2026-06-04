@@ -157,3 +157,7 @@
 .min-width-sm {
   min-width: 375px;
 }
+
+.justify-center {
+  justify-content: center;
+}

@@ -88,14 +88,14 @@ const tabConfig: { id: TabId; label: string; icon: React.ReactNode }[] = [
 export function TabBar() {
   const [active, setActive] = useState<TabId>("Home");
   return (
-    <div className="flex items-center justify-around bg-white border border-gray-200 rounded-xl shadow-sm py-2">
+    <div className="flex items-center justify-around bg-white border border-gray-200 shadow-sm py-2">
       {tabConfig.map((tab) => (
         <button
           key={tab.id}
           onClick={() => setActive(tab.id)}
           className={cn(
             "flex flex-col items-center gap-0.5 px-3 py-1 rounded-lg transition-colors",
-            active === tab.id ? "text-[#1851A0]" : "text-gray-400"
+            active === tab.id ? "text-[#1851A0]" : "text-gray-400",
           )}
         >
           {tab.icon}

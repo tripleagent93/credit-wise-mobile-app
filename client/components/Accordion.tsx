@@ -42,7 +42,7 @@ export function AccordionShowcase() {
     setOpen((prev) => prev.map((v, idx) => (idx === i ? !v : v)));
 
   return (
-    <div className="divide-y divide-gray-100">
+    <div className="divide-y divide-gray-100 bg-white rounded-lg border border-gray-200 p-4 w-full max-w-md">
       {/* Item 1 */}
       <div className="py-3 border-b border-gray-100">
         <button
