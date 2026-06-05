@@ -1,30 +1,17 @@
-const XIcon = () => (
-  <svg
-    width="15"
-    height="15"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2.5"
-    strokeLinecap="round"
-  >
-    <line x1="18" y1="6" x2="6" y2="18" />
-    <line x1="6" y1="6" x2="18" y2="18" />
-  </svg>
-);
+import { CloseIcon } from "./ui/close-icon";
 
 export function BottomSheet() {
   return (
-    <div className="bg-white rounded-2xl shadow-lg border border-gray-100 flex flex-col">
+    <div className="bg-white rounded-2xl shadow-lg border border-gray-100 flex flex-col max-w-sm">
       {/* Drag handle */}
       <div className="flex justify-center pt-3 pb-1">
         <span className="w-10 h-1.5 bg-gray-300 rounded-full" />
       </div>
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-2.5 border-b border-gray-100">
-        <span className="font-semibold text-[#212121] text-sm">Refinance your mortgage</span>
+        <span className="font-semibold text-[#212121] text-md">Refinance your mortgage</span>
         <button className="text-gray-400 hover:text-gray-600 transition-colors">
-          <XIcon />
+          <CloseIcon />
         </button>
       </div>
       {/* Content */}
