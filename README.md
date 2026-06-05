@@ -1,77 +1,200 @@
-### 1. User Research & Insights
+# CreditWise
 
-We conducted interviews with 5 participants matching our target demographic (ages 18–30).
+![CreditWise Hero Screenshot](./assets/hero-placeholder.png)
 
-**Key Insights:**
+## Overview
 
-- **Fear of Failure:** Users avoided checking their credit score because decreases caused intense financial anxiety.
-- **Lack of Actionable Steps:** Traditional credit trackers show the _score_ but do not explain _how to fix it_.
-- **Mobile-First Necessity:** Users demand instant access to credit analytics on the go, specifically prioritizing bottom-of-the-screen thumb accessibility.
+CreditWise is a mobile credit monitoring and financial wellness application designed to help users understand, monitor, and improve their credit health. The app provides users with credit score tracking, personalized recommendations, goal-setting tools, and educational resources to help them make informed financial decisions.
 
-### 2. Information Architecture & Wireframes
-
-Initial low-fidelity wireframes focused on maximizing thumb reachability by leveraging bottom-sheet modal layouts for complex analytical forms and data entries.
-
-|                                           Low-Fidelity Paper Sketches                                            |                                                   Digital Wireframes                                                   |
-| :--------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://via.placeholder.com/300x500.png?text=Paper+Wireframe+Sketch" width="280" alt="Paper Sketch" /> | <img src="https://via.placeholder.com/300x500.png?text=Digital+Lo-Fi+Wireframe" width="280" alt="Digital Wireframe" /> |
+This project was completed as part of the **Google UX Design Professional Certificate**, where I conducted the full UX design process from user research through high-fidelity design and usability testing.
 
 ---
 
-## 🚀 Key Features & Visual Showcases
+## Project Goals
 
-### 📊 1. Core Application Interface
+The primary goals of CreditWise were to:
 
-The dashboard presents a clear, non-intimidating circular credit wheel accompanied by contextual dynamic alerts.
-
-<p align="center">
-  <img src="https://via.placeholder.com/320x640.png?text=Dashboard+Mockup" width="320" alt="CreditWise Dashboard Screen" />
-  <img src="https://via.placeholder.com/320x640.png?text=Credit+Simulator+Screen" width="320" alt="Credit Simulator Screen" />
-</p>
-
-### 🛠️ 2. Bottom Sheet Form Component
-
-To optimize mobile accessibility, full-screen modals were replaced with fluid **Bottom Sheets**. This pattern ensures the native keyboard doesn't obscure primary form inputs and retains the user's focus.
-
-<p align="center">
-  <img src="https://via.placeholder.com/320x640.png?text=Mobile+Bottom+Sheet+Open" width="320" alt="Bottom Sheet Component Modal" />
-</p>
+- Help users monitor their credit score over time
+- Provide actionable recommendations for improving credit health
+- Increase financial literacy through educational content
+- Allow users to create and track credit improvement goals
+- Create a simple and intuitive mobile experience
 
 ---
 
-## 🧱 Component Library & UI Engineering
+## My Responsibilities
 
-A major goal of this project was to establish a pixel-perfect component library built according to strict design token specifications.
+As the UX Designer for this project, I was responsible for:
 
-### Storybook Documentation
-
-The components are fully documented inside **Storybook**. Each element utilizes explicit optical balancing guidelines to maximize clarity on low-resolution mobile displays.
-
-<p align="center">
-  <img src="https://via.placeholder.com/800x450.png?text=Storybook+Component+Documentation+Dashboard" width="100%" alt="Storybook Workspace Interface" />
-</p>
-
-### Micro-Interactions & Layout Rules Followed:
-
-- **Optical Button Balancing:** Side padding automatically scales from `16px` down to `12px` when leading icons are introduced to preserve spatial equilibrium.
-- **Overlay Stacking:** Overlays utilize strict `fixed inset-0 z-[9999]` configurations with explicit alpha-channel backgrounds (`bg-[#BABBBB]/70`) and subtle background blurs to insulate foreground tasks safely.
-- **Mobile Bounds:** Modals enforce dynamic safety bands using `w-full max-w-[calc(100%-32px)] mx-4` to adapt seamlessly across differing aspect ratios like iPhone Mini up to standard tablet sizes.
+- User Research
+- Competitive Analysis
+- User Personas
+- User Journey Mapping
+- Information Architecture
+- Wireframing
+- Prototyping
+- Usability Testing
+- Visual Design
+- Design System Creation
 
 ---
 
-## 🛠️ Technical Implementation
+## Google UX Design Certification
 
-The component ecosystem is built with a highly maintainable frontend stack mirroring production environments:
+This project was created as part of the Google UX Design Professional Certificate and follows the complete UX design process:
 
-- **Framework:** React 18 (TypeScript)
-- **Styling:** Tailwind CSS (Utility-first styling Engine)
-- **Isolation Environment:** Storybook 8
-- **Icons:** Hand-crafted optimized SVG elements bundled into scalable React elements
+1. Empathize
+2. Define
+3. Ideate
+4. Prototype
+5. Test
 
-### Getting Started Locally
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/creditwise-mobile-app.git](https://github.com/yourusername/creditwise-mobile-app.git)
-   cd creditwise-mobile-app
-   ```
+# Design Showcase
+
+## High-Fidelity Screens
+
+| Dashboard                                               | Goals                                           |
+| ------------------------------------------------------- | ----------------------------------------------- |
+| ![Dashboard Screen](./assets/dashboard-placeholder.png) | ![Goals Screen](./assets/goals-placeholder.png) |
+
+| Credit Details                                             | Recommendations                                                     |
+| ---------------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Credit Details Screen](./assets/details-placeholder.png) | ![Recommendations Screen](./assets/recommendations-placeholder.png) |
+
+> Replace these placeholder images with exported screenshots from your Figma designs.
+
+---
+
+## User Flow
+
+![User Flow Diagram](./assets/user-flow-placeholder.png)
+
+> Add your primary user flow diagram here.
+
+---
+
+## Wireframes
+
+| Low-Fidelity Wireframe                           | High-Fidelity Design                           |
+| ------------------------------------------------ | ---------------------------------------------- |
+| ![Wireframe](./assets/wireframe-placeholder.png) | ![Hi-Fi Design](./assets/hifi-placeholder.png) |
+
+---
+
+## Interactive Prototype
+
+Explore the complete interactive prototype:
+
+🔗 **Figma Prototype**
+[Insert Figma Prototype Link]
+
+🔗 **Figma Design File**
+[Insert Figma Design File Link]
+
+---
+
+## Design System & Component Library
+
+A reusable design system was created to ensure consistency across the application.
+
+### Design Tokens
+
+- Color Palette
+- Typography Scale
+- Spacing System
+- Grid System
+- Component Standards
+
+### Components
+
+- Buttons
+- Input Fields
+- Cards
+- Navigation
+- Progress Indicators
+- Goal Tracking Components
+- Credit Score Widgets
+
+🔗 **Storybook Component Library**
+[Insert Storybook URL]
+
+---
+
+## Design Process
+
+### Research
+
+Conducted user interviews and analyzed competing credit monitoring applications to identify opportunities and pain points.
+
+### Define
+
+Created personas, empathy maps, and problem statements to align design decisions with user needs.
+
+### Ideate
+
+Developed user flows, task flows, sketches, and wireframes to explore solutions.
+
+### Prototype
+
+Created interactive prototypes in Figma to test concepts and validate user interactions.
+
+### Test
+
+Conducted usability testing sessions and iterated designs based on user feedback.
+
+---
+
+## Tools Used
+
+- Figma
+- FigJam
+- Storybook
+- Miro
+- Google Forms
+- Adobe Illustrator
+
+---
+
+## Project Structure
+
+```bash
+creditwise/
+├── assets/
+│   ├── hero-placeholder.png
+│   ├── dashboard-placeholder.png
+│   ├── goals-placeholder.png
+│   ├── details-placeholder.png
+│   ├── recommendations-placeholder.png
+│   ├── user-flow-placeholder.png
+│   └── wireframe-placeholder.png
+├── README.md
+└── design-system/
+```
+
+---
+
+## Case Study
+
+Read the full UX case study:
+
+🔗 **Case Study**
+[Insert Portfolio Case Study Link]
+
+---
+
+## Author
+
+**Max O.**
+
+UX Designer • Front-End Developer
+
+Portfolio: [Insert Portfolio URL]
+LinkedIn: [Insert LinkedIn URL]
+
+---
+
+## License
+
+This project is intended for educational and portfolio purposes.
