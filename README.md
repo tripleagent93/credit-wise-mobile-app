@@ -20,8 +20,6 @@ The primary goals of CreditWise were to:
 - Allow users to create and track credit improvement goals
 - Create a simple and intuitive mobile experience
 
----
-
 ## My Responsibilities
 
 As the UX Designer for this project, I was responsible for:
@@ -37,8 +35,6 @@ As the UX Designer for this project, I was responsible for:
 - Visual Design
 - Design System Creation
 
----
-
 ## Google UX Design Certification
 
 This project was created as part of the Google UX Design Professional Certificate and follows the complete UX design process:
@@ -48,8 +44,6 @@ This project was created as part of the Google UX Design Professional Certificat
 3. Ideate
 4. Prototype
 5. Test
-
----
 
 # Design Showcase
 
@@ -65,15 +59,11 @@ This project was created as part of the Google UX Design Professional Certificat
 
 > Replace these placeholder images with exported screenshots from your Figma designs.
 
----
-
 ## User Flow
 
 ![User Flow Diagram](./assets/user-flow-placeholder.png)
 
 > Add your primary user flow diagram here.
-
----
 
 ## Wireframes
 
@@ -81,19 +71,15 @@ This project was created as part of the Google UX Design Professional Certificat
 | ------------------------------------------------ | ---------------------------------------------- |
 | ![Wireframe](./assets/wireframe-placeholder.png) | ![Hi-Fi Design](./assets/hifi-placeholder.png) |
 
----
-
 ## Interactive Prototype
 
 Explore the complete interactive prototype:
 
-🔗 **Figma Prototype**
+**Figma Prototype**
 [Insert Figma Prototype Link]
 
-🔗 **Figma Design File**
+**Figma Design File**
 [Insert Figma Design File Link]
-
----
 
 ## Design System & Component Library
 
@@ -117,10 +103,8 @@ A reusable design system was created to ensure consistency across the applicatio
 - Goal Tracking Components
 - Credit Score Widgets
 
-🔗 **Storybook Component Library**
-[Component Library](https://credit-wise-mobile-app.vercel.app/?path=/docs/components-alert--docs)
-
----
+  **Storybook Component Library**
+  [Component Library](https://credit-wise-mobile-app.vercel.app/?path=/docs/components-alert--docs)
 
 ## Design Process
 
@@ -144,8 +128,6 @@ Created interactive prototypes in Figma to test concepts and validate user inter
 
 Conducted usability testing sessions and iterated designs based on user feedback.
 
----
-
 ## Tools Used
 
 - Figma
@@ -154,8 +136,6 @@ Conducted usability testing sessions and iterated designs based on user feedback
 - Miro
 - Google Forms
 - Adobe Illustrator
-
----
 
 ## Project Structure
 
@@ -173,16 +153,12 @@ creditwise/
 └── design-system/
 ```
 
----
-
 ## Case Study
 
 Read the full UX case study:
 
-🔗 **Case Study**
-[Insert Portfolio Case Study Link]
-
----
+**Case Study**
+[CreditWise Mobile App Case Study] (https://www.maxotk.com/creditwise-mobile-app-case-study)
 
 ## Author
 
@@ -192,8 +168,6 @@ UX Designer • Front-End Developer
 
 Portfolio: [maxotk.com](https://www.maxotk.com/)
 LinkedIn: [linkedIn/in/max-otk](https://www.linkedin.com/in/max-otk/)
-
----
 
 ## License
 
