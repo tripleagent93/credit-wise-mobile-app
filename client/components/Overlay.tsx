@@ -1,7 +1,7 @@
 export function Overlay() {
   return (
-    <div className="w-full h-full bg-[#BABBBB] flex items-center justify-center">
-      <span className="text-white text-sm font-medium opacity-70">Overlay</span>
+    <div className="fixed inset-0 z-[9999] bg-[#BABBBB]/70  flex items-center justify-center">
+      <span className="text-white text-sm font-medium">Overlay</span>
     </div>
   );
 }

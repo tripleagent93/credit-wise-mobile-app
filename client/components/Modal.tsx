@@ -22,6 +22,7 @@ export interface ModalProps {
   actionLabel: string;
   onAction?: () => void;
   onClose?: () => void;
+  zIndex?: number;
   dismissible?: boolean;
 }
 
@@ -32,10 +33,11 @@ export function Modal({
   actionLabel,
   onAction,
   onClose,
+  zIndex = 9999999,
   dismissible = true,
 }: ModalProps) {
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5 max-w-sm" style={{ zIndex }}>
       <div className="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden">
         <div className="flex items-center justify-between px-4 py-3 border-b border-gray-100">
           <span className="font-semibold text-[#212121] text-sm">{title}</span>
