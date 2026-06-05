@@ -11,11 +11,3 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {};
-
-export const WithNotification: Story = {
-  render: () => (
-    <div className="bg-gray-50 p-4">
-      <AppHeader />
-    </div>
-  ),
-};
