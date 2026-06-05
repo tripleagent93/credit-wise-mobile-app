@@ -1,6 +1,6 @@
 # CreditWise
 
-![CreditWise Hero Screenshot](./assets/hero-placeholder.png)
+![CreditWise Hero Screenshot](https://www.maxotk.com/_astro/creditwise-landing-offset.Be1QRcsz_Z1e9Wn1.webp)
 
 ## Overview
 
