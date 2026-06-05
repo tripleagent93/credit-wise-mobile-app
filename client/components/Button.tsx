@@ -24,7 +24,7 @@ export function Button({
       className={`flex flex-row items-center gap-1 ${hasIcon ? "pl-3 pr-4" : "px-4"} py-2 rounded-md text-sm font-medium ${buttonStyles[type]}`}
     >
       {hasIcon && (
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
           <path
             d="M10 4.16666V15.8333M4.16669 9.99999H15.8334"
             stroke="currentColor"

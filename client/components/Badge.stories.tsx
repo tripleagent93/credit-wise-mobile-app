@@ -41,8 +41,7 @@ export const Filled: Story = {
   parameters: {
     docs: {
       description: {
-        story:
-          "Badge component with outlined and filled variants. Displays credit score ratings: Fair, Excellent, Poor, and Good.",
+        story: "Badge component with filled variants.",
       },
     },
   },
@@ -65,8 +64,7 @@ export const Outlined: Story = {
   parameters: {
     docs: {
       description: {
-        story:
-          "Badge component with outlined and filled variants. Displays credit score ratings: Fair, Excellent, Poor, and Good.",
+        story: "Badge component with outlined variants.",
       },
     },
   },
@@ -89,8 +87,7 @@ export const OutlinedWithIcon: Story = {
   parameters: {
     docs: {
       description: {
-        story:
-          "Badge component with outlined and filled variants. Displays credit score ratings: Fair, Excellent, Poor, and Good.",
+        story: "Badge component with outlined variants with icons.",
       },
     },
   },
