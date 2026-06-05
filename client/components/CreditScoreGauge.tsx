@@ -82,7 +82,7 @@ export function CreditScoreGauge({ score, rating }: CreditScoreGaugeProps) {
 
         {/* Score display */}
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 text-center">
-          <div className="text-4xl font-bold text-black">{score}</div>
+          <div className="text-[2.5rem] font-semibold text-black">{score}</div>
           <div className="text-xs font-bold text-black">↑ 7</div>
         </div>
 
