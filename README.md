@@ -118,7 +118,7 @@ A reusable design system was created to ensure consistency across the applicatio
 - Credit Score Widgets
 
 🔗 **Storybook Component Library**
-[\[Insert Storybook URL\]](https://credit-wise-mobile-app.vercel.app/?path=/docs/components-alert--docs)
+[\[Component Library\]](https://credit-wise-mobile-app.vercel.app/?path=/docs/components-alert--docs)
 
 ---
 
@@ -190,8 +190,8 @@ Read the full UX case study:
 
 UX Designer • Front-End Developer
 
-Portfolio: [Insert Portfolio URL]
-LinkedIn: [Insert LinkedIn URL]
+Portfolio: [\[maxotk.com\]](https://www.maxotk.com/)
+LinkedIn: [\[linkedIn/in/max-otk\]](https://www.linkedin.com/in/max-otk/)
 
 ---
 
