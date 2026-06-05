@@ -5,6 +5,15 @@ const meta = {
   title: "Components/Overlay",
   component: Overlay,
   tags: ["autodocs"],
+  decorators: [
+    (Story) => (
+      <div className="p-4 flex justify-center min-h-[712px]">
+        <div className="min-width-sm">
+          <Story />
+        </div>
+      </div>
+    ),
+  ],
 } satisfies Meta<typeof Overlay>;
 
 export default meta;

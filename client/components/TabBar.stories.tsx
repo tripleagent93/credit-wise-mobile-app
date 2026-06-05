@@ -5,6 +5,15 @@ const meta = {
   title: "Components/TabBar",
   component: TabBar,
   tags: ["autodocs"],
+  decorators: [
+    (Story) => (
+      <div className="p-4 flex justify-center">
+        <div className="min-width-sm">
+          <Story />
+        </div>
+      </div>
+    ),
+  ],
 } satisfies Meta<typeof TabBar>;
 
 export default meta;
