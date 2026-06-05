@@ -23,11 +23,3 @@ export const Interactive: Story = {
     },
   },
 };
-
-export const Stacked: Story = {
-  render: () => (
-    <div className="space-y-3">
-      <AlertShowcase />
-    </div>
-  ),
-};
