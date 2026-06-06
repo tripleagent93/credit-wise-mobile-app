@@ -1,4 +1,4 @@
-# CreditWise
+# CreditWise Mobile App
 
 ![CreditWise Hero Screenshot](https://www.maxotk.com/_astro/creditwise-landing-offset.Be1QRcsz_Z1e9Wn1.webp)
 
@@ -166,7 +166,7 @@ Read the full UX case study:
 
 UX Designer • Front-End Developer
 
-Portfolio: [maxotk.com](https://www.maxotk.com/)
+Portfolio: [maxotk.com](https://www.maxotk.com/)<br />
 LinkedIn: [linkedIn/in/max-otk](https://www.linkedin.com/in/max-otk/)
 
 ## License
