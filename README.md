@@ -133,9 +133,6 @@ Conducted usability testing sessions and iterated designs based on user feedback
 - Figma
 - FigJam
 - Storybook
-- Miro
-- Google Forms
-- Adobe Illustrator
 
 ## Project Structure
 

@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { within } from "storybook/test";
 import { TextInputShowcase } from "./TextInput";
 
 const meta = {
@@ -17,8 +18,7 @@ export const Showcase: Story = {
   parameters: {
     docs: {
       description: {
-        story:
-          "Text input component with Email and Password fields. Includes focus states with blue ring indicator and placeholder text.",
+        story: "Text input component with Email and Password fields.",
       },
     },
   },
@@ -55,6 +55,11 @@ export const PasswordInput: Story = {
 };
 
 export const WithFocus: Story = {
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement);
+    const input = canvas.getByPlaceholderText("email@example.com");
+    await input.focus();
+  },
   render: () => (
     <div className="max-w-sm">
       <label className="text-xs font-medium text-gray-500 mb-1 block">
@@ -62,7 +67,7 @@ export const WithFocus: Story = {
       </label>
       <input
         type="email"
-        placeholder="you@example.com"
+        placeholder="email@example.com"
         autoFocus
         className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm text-[#212121] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#1851A0] focus:border-transparent transition"
       />
