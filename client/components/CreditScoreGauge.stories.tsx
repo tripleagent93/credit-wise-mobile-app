@@ -14,7 +14,12 @@ const meta = {
       options: ["good", "excellent", "poor"],
     },
     score: {
-      control: { type: "number", min: 300, max: 850 },
+      options: [350, 840],
+      control: { type: "select" },
+    },
+    trend: {
+      control: { type: "radio" },
+      options: ["up", "down", "stable"],
     },
   },
 } satisfies Meta<typeof CreditScoreGauge>;
@@ -22,24 +27,19 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Good: Story = {
+export const Poor: Story = {
   args: {
-    score: 720,
-    rating: "good",
+    score: 350,
+    rating: "poor",
+    trend: "down",
   },
 };
 
 export const Excellent: Story = {
   args: {
-    score: 849,
+    score: 840,
     rating: "excellent",
-  },
-};
-
-export const Poor: Story = {
-  args: {
-    score: 350,
-    rating: "poor",
+    trend: "up",
   },
 };
 
@@ -50,9 +50,8 @@ export const AllRatings: Story = {
   },
   render: () => (
     <div className="flex gap-8 flex-wrap justify-center">
-      <CreditScoreGauge score={720} rating="good" />
-      <CreditScoreGauge score={849} rating="excellent" />
       <CreditScoreGauge score={350} rating="poor" />
+      <CreditScoreGauge score={850} rating="excellent" />
     </div>
   ),
 };
