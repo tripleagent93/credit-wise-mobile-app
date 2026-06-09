@@ -53,9 +53,9 @@ This project was created as part of the Google UX Design Professional Certificat
 | ---------------------------------------------------------- | ----------------------------------------------- |
 | ![Dashboard Screen](./assets/images/6. Score - Report.png) | ![Goals Screen](./assets/goals-placeholder.png) |
 
-| Credit Details                                        | Recommendations                                                     |
-| ----------------------------------------------------- | ------------------------------------------------------------------- |
-| ![Credit Details Screen](https://postimg.cc/0bF1RqcK) | ![Recommendations Screen](./assets/recommendations-placeholder.png) |
+| Credit Details                                                              | Recommendations                                                     |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| ![Credit Details Screen](https://i.postimg.cc/CxLh8h87/6-Score-Factors.png) | ![Recommendations Screen](./assets/recommendations-placeholder.png) |
 
 > Replace these placeholder images with exported screenshots from your Figma designs.
 
