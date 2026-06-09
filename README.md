@@ -49,15 +49,13 @@ This project was created as part of the Google UX Design Professional Certificat
 
 ## High-Fidelity Screens
 
-| Dashboard                                                  | Goals                                           |
-| ---------------------------------------------------------- | ----------------------------------------------- |
-| ![Dashboard Screen](./assets/images/6. Score - Report.png) | ![Goals Screen](./assets/goals-placeholder.png) |
+| Dashboard                                                                         | Goals                                                                  |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| ![Dashboard Screen](<https://i.postimg.cc/vTQjKBbV/6-Score-Simulator-(Open).png>) | ![Goals Screen](https://i.postimg.cc/L5N7Fps4/8-Goal-Details-View.png) |
 
 | Credit Details                                                              | Recommendations                                                     |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| ![Credit Details Screen](https://i.postimg.cc/CxLh8h87/6-Score-Factors.png) | ![Recommendations Screen](./assets/recommendations-placeholder.png) |
-
-> Replace these placeholder images with exported screenshots from your Figma designs.
+| ![Credit Details Screen](https://i.postimg.cc/CxLh8h87/6-Score-Factors.png) | ![Recommendations Screen](https://i.postimg.cc/zfg9b6x3/4-Home.png) |
 
 ## User Flow
 
