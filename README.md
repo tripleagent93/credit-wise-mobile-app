@@ -8,8 +8,6 @@ CreditWise is a mobile credit monitoring and financial wellness application desi
 
 This project was completed as part of the **Google UX Design Professional Certificate**, where I conducted the full UX design process from user research through high-fidelity design and usability testing.
 
----
-
 ## Project Goals
 
 The primary goals of CreditWise were to:
@@ -53,7 +51,7 @@ This project was created as part of the Google UX Design Professional Certificat
 | -------------------------------------------------------- | ---------------------------------------------------------------------- |
 | ![Home Screen](https://i.postimg.cc/zfg9b6x3/4-Home.png) | ![Goals Screen](https://i.postimg.cc/L5N7Fps4/8-Goal-Details-View.png) |
 
-| Score Factors                                                              | Credsit Score Simulator                                                                 |
+| Score Factors                                                              | Score Simulator                                                                         |
 | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 | ![Score Factors Screen](https://i.postimg.cc/CxLh8h87/6-Score-Factors.png) | ![Score Simulator Screen](<https://i.postimg.cc/vTQjKBbV/6-Score-Simulator-(Open).png>) |
 
