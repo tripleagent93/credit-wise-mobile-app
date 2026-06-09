@@ -26,7 +26,7 @@ export const Showcase: Story = {
 
 export const InContext: Story = {
   render: () => (
-    <div className="bg-gray-900 rounded-lg p-4 min-h-96 flex items-end justify-center">
+    <div className="bg-[#babbbbb3] rounded-lg p-4 min-h-96 flex items-end justify-center">
       <div className="w-full max-w-sm">
         <BottomSheet />
       </div>
@@ -35,8 +35,7 @@ export const InContext: Story = {
   parameters: {
     docs: {
       description: {
-        story:
-          "Bottom sheet displayed over a dark overlay, showing how it appears in a full-screen modal context.",
+        story: "Bottom sheet displayed over an overlay.",
       },
     },
   },
