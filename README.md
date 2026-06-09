@@ -76,10 +76,10 @@ This project was created as part of the Google UX Design Professional Certificat
 Explore the complete interactive prototype:
 
 **Figma Prototype**
-[Insert Figma Prototype Link]
+[Figma Prototype Link](https://www.figma.com/proto/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=1345-2377&p=f&m=dev&scaling=min-zoom&content-scaling=fixed&page-id=681%3A517&starting-point-node-id=1345%3A2377&show-proto-sidebar=1&t=hQslF3OMS3qQNtmB-1)
 
 **Figma Design File**
-[Insert Figma Design File Link]
+[Prototype](https://www.figma.com/design/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=141-24&m=dev)
 
 ## Design System & Component Library
 
@@ -95,13 +95,14 @@ A reusable design system was created to ensure consistency across the applicatio
 
 ### Components
 
+- App Header
+- Tab Bar
 - Buttons
 - Input Fields
-- Cards
-- Navigation
-- Progress Indicators
-- Goal Tracking Components
-- Credit Score Widgets
+- Alerts
+- Credit Score Gauges
+- Social Login Buttons
+- Accordion
 
   **Storybook Component Library**
   [Component Library](https://credit-wise-mobile-app.vercel.app/?path=/docs/components-alert--docs)
@@ -134,28 +135,12 @@ Conducted usability testing sessions and iterated designs based on user feedback
 - FigJam
 - Storybook
 
-## Project Structure
-
-```bash
-creditwise/
-├── assets/
-│   ├── hero-placeholder.png
-│   ├── dashboard-placeholder.png
-│   ├── goals-placeholder.png
-│   ├── details-placeholder.png
-│   ├── recommendations-placeholder.png
-│   ├── user-flow-placeholder.png
-│   └── wireframe-placeholder.png
-├── README.md
-└── design-system/
-```
-
 ## Case Study
 
 Read the full UX case study:
 
 **Case Study**
-[CreditWise Mobile App Case Study] (https://www.maxotk.com/creditwise-mobile-app-case-study)
+[CreditWise Mobile App Case Study](https://www.maxotk.com/creditwise-mobile-app-case-study)
 
 ## Author
 
