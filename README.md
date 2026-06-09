@@ -49,9 +49,9 @@ This project was created as part of the Google UX Design Professional Certificat
 
 ## High-Fidelity Screens
 
-| Dashboard                                               | Goals                                           |
-| ------------------------------------------------------- | ----------------------------------------------- |
-| ![Dashboard Screen](./assets/dashboard-placeholder.png) | ![Goals Screen](./assets/goals-placeholder.png) |
+| Dashboard                                                  | Goals                                           |
+| ---------------------------------------------------------- | ----------------------------------------------- |
+| ![Dashboard Screen](./assets/images/6. Score - Report.png) | ![Goals Screen](./assets/goals-placeholder.png) |
 
 | Credit Details                                             | Recommendations                                                     |
 | ---------------------------------------------------------- | ------------------------------------------------------------------- |
@@ -76,10 +76,10 @@ This project was created as part of the Google UX Design Professional Certificat
 Explore the complete interactive prototype:
 
 **Figma Prototype**
-[Figma Prototype Link](https://www.figma.com/proto/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=1345-2377&p=f&m=dev&scaling=min-zoom&content-scaling=fixed&page-id=681%3A517&starting-point-node-id=1345%3A2377&show-proto-sidebar=1&t=hQslF3OMS3qQNtmB-1)
+[CreditWise Prototype](https://www.figma.com/proto/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=1345-2377&p=f&m=dev&scaling=min-zoom&content-scaling=fixed&page-id=681%3A517&starting-point-node-id=1345%3A2377&show-proto-sidebar=1&t=hQslF3OMS3qQNtmB-1)
 
 **Figma Design File**
-[Prototype](https://www.figma.com/design/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=141-24&m=dev)
+[CreditWise Hi-Fidelity Mockups](https://www.figma.com/design/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=141-24&m=dev)
 
 ## Design System & Component Library
 
